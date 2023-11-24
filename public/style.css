@@ -1,0 +1,95 @@
+*
+{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: box;
+    
+}
+body{
+    background-image: url(https://imgs.search.brave.com/XO2sp078BdFy4BKur39Mk2nSOGNZvd22SlUk4pxKruY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvY2xvdWQtYmFj/a2dyb3VuZC01dG1s/OWpvYnU0MDZvdmU4/LmpwZw);
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+#Heading
+{
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    color: white;
+    text-shadow: 2px 2px grey;
+    font-size: 50px;
+    
+    
+}
+
+/* .searchbox
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    width: 500%;
+    font-size: 1rem;
+    border: none;
+} */
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 230px;
+}
+.search-bar
+{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255,0.7);
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+
+}
+
+.search-bar input
+{
+    background-color: transparent;
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 24px 20px;
+    font-size: 24px;
+    color: black;
+}
+
+button
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-left: 45%;
+    background-color: rgb(129, 194, 222);
+    font-size: 15px;
+    padding: 12px 20px;
+    border-radius: 12px;
+    border: 2px #016FB7 solid;
+    transition-duration: 0.4ss;
+}
+button:hover{
+    background-color: #016FB7;
+    color: white;
+
+}
+ #weatherInfo
+ {
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    color: black;
+    text-shadow: 2px 2px grey;
+    font-size: 50px;
+ }
+
